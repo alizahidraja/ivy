@@ -5,30 +5,9 @@ constant_pad
 
 .. autofunction:: ivy.array.array_methods.constant_pad
 
-.. autofunction:: ivy.container.container_methods.static_constant_pad
-
 .. autofunction:: ivy.container.container_methods.constant_pad
 
-.. list-table:: Device Support
-   :widths: 20 20 20 20 20
-   :header-rows: 1
-
-   * - Device
-     - JAX
-     - NumPy
-     - TensorFlow
-     - PyTorch
-   * - CPU
-     - ✅
-     - ✅
-     - ✅
-     - ✅
-   * - GPU
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-
+.. autofunction:: ivy.container.container_methods.static_constant_pad
 |
 | **Supported Frameworks:**
 

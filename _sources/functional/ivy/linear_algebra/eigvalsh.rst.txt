@@ -5,26 +5,9 @@ eigvalsh
 
 .. autofunction:: ivy.array.array_methods.eigvalsh
 
-.. list-table:: Device Support
-   :widths: 20 20 20 20 20
-   :header-rows: 1
+.. autofunction:: ivy.container.container_methods.eigvalsh
 
-   * - Device
-     - JAX
-     - NumPy
-     - TensorFlow
-     - PyTorch
-   * - CPU
-     - ✅
-     - ✅
-     - ✅
-     - ✅
-   * - GPU
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-
+.. autofunction:: ivy.container.container_methods.static_eigvalsh
 |
 | **Supported Frameworks:**
 
@@ -53,4 +36,6 @@ eigvalsh
 
    eigvalsh/eigvalsh_functional.rst
    eigvalsh/eigvalsh_array.rst
+   eigvalsh/eigvalsh_container.rst
+   eigvalsh/static_eigvalsh_container.rst
 
